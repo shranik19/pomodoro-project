@@ -1,0 +1,56 @@
+body{
+ background-color: red;
+}
+.timer-content{
+    width: 30%;
+    margin: 0 auto;
+}
+.header-title{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+header{
+    padding: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.timer-container{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.tab-list{
+    text-align: center;
+}
+.tab-item{
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+         
+}
+.tab-item.active{
+    background-color: black;
+}
+.tab-item-content{
+    display: none;
+    text-align: center;
+}
+.tab-item-content.active{
+    display: block;
+}
+.time{
+    font-size: 80px;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+button{
+    padding: 10px 35px;
+
+}
